@@ -1,0 +1,253 @@
+/* Media query for tablets (typically between 600px and 900px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+
+
+
+
+    /* search par container   */
+    main div.search-bar-container {
+        height: auto; 
+        width: 100%;
+        padding: 10px 64px;
+        gap: 20px;
+    }
+
+    main div.search-bar-container div.left{
+        padding-left: 0;
+    }
+
+    main div.search-bar-container div.left div.browse div.text{
+        gap: 6px;
+    }
+
+    main div.search-bar-container div.left div.search{
+        gap: 0;
+    }
+
+    main div.search-bar-container div.right{
+        padding-right: 0;
+    }
+
+    main div.search-bar-container div.right div.notify{
+        width: auto;
+    }
+
+    main div.search-bar-container div.right div.notify img.plus-img{
+        display: none;
+    }
+
+    main div.search-bar-container div.right
+    div.notify div.Notification{
+        width: 40px;
+        height: 40px;
+     }
+
+    main div.search-bar-container div.right 
+    div.notify div.avatar{
+        width: 40px;
+        height: 40px;
+    }
+
+    
+    /* rectangle browse  */
+    main div.search-bar-container div.left div.rect-browse{
+        top:55px;
+        left: -55px;
+    }
+
+
+    /* rectangle notification */
+    main div.search-bar-container div.right div.rect-notification{
+        top: 55px;
+        right: 0px;
+    }
+
+    main div.search-bar-container div.right 
+    div.notify div.Notification> div.notification-num{
+        top: -3px;
+        right: -7px;
+        width: 17px;
+        height: 17px;
+    }
+
+    /* rectangle avatar */
+    main div.search-bar-container div.right div.rect-avatar{
+        top: 55px;
+        right: 0px;
+    }
+
+}
+
+
+
+/* meida query for mobile (typically between 600px and 900px) */
+@media (max-width:426px){
+    
+    nav{
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+
+    nav div.top{
+        width: 90%;
+        align-items: flex-start !important;
+    }
+
+
+    
+    /* menu  */
+        nav div.top div.menu {
+        width: 100%;
+    }
+
+    nav div.top div.menu ul{
+        align-items: self-start;
+    }
+
+    nav div.top div.menu ul li{
+        width: 100%;
+        justify-content: start;
+    }
+
+    .nav-active{
+        width: 110%;
+    }
+
+    nav div.top div.menu ul li:nth-child(5) a img:nth-of-type(2){
+        margin-left: 175px;
+    }
+
+
+    /* following */
+    nav div.top div.following{
+        width: 100%;
+    }
+    nav div.top div.following div.following-container{
+        padding-left: 20px;
+    }
+
+    nav div.top div.following div.following-container div{
+        gap: 175px;
+    }
+
+    /* unity gaming */
+    nav div.top div.unity-gaming{
+        width: 100%;
+    }
+
+    nav div.top div.unity-gaming div.untiy-container{
+        padding-left: 20px;
+    }
+
+    nav div.top div.unity-gaming div.untiy-container div{
+        gap: 175px;
+    }
+
+
+    /* buttom */
+    nav div.bottom div.join div.text>button{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+    /* search par container  */
+    main div.search-bar-container {
+        height: auto; 
+        width: 90%;
+        padding: 10px 0px;
+    }
+
+    main div.search-bar-container
+    div.burger-icon{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    main div.search-bar-container div.left{
+        flex: 0;
+    }
+
+    main div.search-bar-container div.left{
+        padding-left:0 ;
+        gap: 180px;
+    }
+
+    main div.search-bar-container div.left
+    div.search{
+        gap: 0;
+    }
+    main div.search-bar-container div.left
+    div.browse{
+        display: none;
+    }
+
+    main div.search-bar-container div.left
+    div.search div.text-input> input{
+        display: none;
+    }
+
+    main div.search-bar-container div.right{
+        padding-right: 0px;
+        justify-content: center;
+        
+    }
+
+    main div.search-bar-container div.right 
+    div.notify{
+        gap: 30px;
+    }
+
+
+    main div.search-bar-container div.right 
+    div.notify img.plus-img, img.chat-img{
+        display: none;
+    }
+
+    main div.search-bar-container div.right
+     div.notify div.notification{
+        width: 35px;
+        height: 35px;
+    }
+
+    main div.search-bar-container div.right 
+    div.notify div.Notification> div.notification-num{
+        top: -3px;
+        right: -7px;
+        width: 17px;
+        height: 17px;
+    }
+
+    main div.search-bar-container div.right 
+    div.notify div.avatar{
+        width: 35px;
+        height: 35px;
+    }
+
+        
+    /* rectangle notification */
+
+    main div.search-bar-container div.right div.rect-notification{
+        width: 410px;
+    }
+    main div.search-bar-container div.right div.rect-notification{
+        top: 50px;
+        right: -13px;
+    }
+
+    /* rectangle avatar */
+    main div.search-bar-container div.right div.rect-avatar{
+        top: 50px;
+        right: -15px;
+    }
+
+}

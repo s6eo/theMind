@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    /* display: flex; */
+}
+
+main{
+    width: 100%;
+}
+
+main header{
+    background: url(/img/imgs/img2.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 525px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(0, 0, 0, 0.8)
+    );
+}
+
+main header::after {
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    background: #2427319e;
+    width: 73%;
+    height: 224px;
+    border-radius:24px ;
+    box-shadow: 0px 39px 9px -34px #ffffff0d;
+}
+
+
+
+main header div.profile{
+    position: absolute;
+    z-index: 2;
+    bottom: -50px;
+    background: var(--bg-card);
+    width: 75%;
+    height: 224px;
+    border-radius:24px ;
+    padding: 50px;
+    gap: 250px;
+}
+
+main header div.profile div.title-profile
+div.user div.img{
+    height: 100%;
+    position: relative;
+} 
+
+main header div.profile div.title-profile
+div.user div.img>img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    outline: 4px solid var(--notOnline-follow-color);
+    outline-offset: 4px;
+}
+
+main header div.profile div.title-profile
+div.user div.img>div.online{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -2px;
+    right: -2px;
+    outline: 3px solid var(--bg-card);
+}
+
+main header div.profile div.title-profile
+div.user div.top>h2{
+    font-size: var(--font-size-h2-44);
+    color: var(--w-main-color);
+    font-weight: bold;
+}
+
+main header div.profile div.title-profile
+div.user div.top div.valid{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--onlineVlid-follow-color);
+} 
+
+main header div.profile div.title-profile
+div.user div.top div.valid>img{
+    width: 50%;
+}
+
+main header div.profile div.title-profile
+div.user div.details> p{
+    font-size: var(--font-size-h6-18);
+    color: var(--w-main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* article section  */
+article.live-channels {
+    width: 75%;
+    /* height: 500px; */
+    margin-top: 200px;
+}
+
+article.live-channels>div.top{
+    width: 100%;
+    height: 50px;
+}
+
+article.live-channels div.top>div.filter{
+    width: 200px;
+    height: 50px;
+    background-color:var(--w-opacity-color-5);
+    border-radius: var(--border-r-16);
+}
+
+article.live-channels div.top>div.filter>h6{
+    font-size: var(--font-size-menu-14);
+    color: var(--w-opacity-color-60);
+    font-weight: normal;
+}
+
+article.live-channels div.top>div.filter>div.arrow{
+    width: 25px;
+    height: 25px;
+}
+
+/* cards with js */
+article.live-channels div.live-cards{
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+article.live-channels div.live-cards div.card{
+    background-color: var(--bg-card);
+    height: 400px;
+    width: 260px;
+    border-radius: var(--border-r-24);
+}
+
+article.live-channels div.live-cards div.card
+div.top>div.img{
+    width: 100%;
+    height: 170px;
+    border-radius: 24px 24px 0 0 ;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription {
+    width: 80%;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription>h6{
+    width: 90%;
+    font-size: var(--font-size-h6-18);
+    color: var(--w-main-color);
+    font-weight:500;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.game-name{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+    font-weight: normal;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name>h6{
+    font-size: var(--font-size-Caption1);
+    color: var(--w-main-color);
+    font-weight: normal;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name> div.validation-user{
+    background-color: #7FBA7A;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name> div.validation-user 
+img{
+    width: 10px;
+    height: 8px;
+}
+
+article.live-channels div.live-cards div.card
+div.bottom {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid var(--d-shades-color-2);
+}
+
+article.live-channels div.live-cards div.card
+div.bottom div.watchig div.blue-point{
+    width: 8px;
+    height: 8px;
+    background-color: var(--s-shades-color-4);
+    border-radius: 50%;
+}
+
+article.live-channels div.live-cards div.card
+div.bottom div.watchig>p{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+}
+
+
+
+/* Categories section  */
+section.Categories {
+    width: 75%;
+    height: 748px;
+    margin-top: var(--margin-section-s);
+}
+
+section.Categories div.category{
+	display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+	gap: 32px;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* for all cards */
+section.Categories div.category div.Scard{
+	background-color: var(--bg-card);
+    border-radius: var(--border-r-24);
+    padding: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+section.Categories div.category div.Scard div.details div.title
+div.btn-sm{
+    width: 94px;
+    background-color: var(--p-opactiy-color-10);
+    color: var(--s-shades-color-4);
+    font-weight: bold;
+}
+
+section.Categories div.category  div.details div.title 
+div.views>p{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+}
+
+section.Categories div.category div.Scard div.details  button.btn{
+    background-color: var(--d-shades-color-2);
+    transition: all 300ms linear;
+}
+
+section.Categories div.category div.Scard div.details  button.btn:hover{
+    background-color: var(--p-main-color);
+}
+
+section.Categories div.category div.Scard div.G-img{
+    width: 45%;
+    height: 100%;
+    border-radius: var(--border-r-16);
+}
+
+ /* other cards */
+section.Categories div.category div.Scard:nth-child(2){
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+section.Categories div.category div.Scard:nth-child(2)
+div.details  div.btn-sm:nth-child(2){
+    display: none;
+}
+
+section.Categories div.category div.Scard:nth-child(2) div.L-R-Arrow{
+    display: none;
+}
+
+section.Categories div.category div.Scard:nth-child(3){
+    grid-row: 2 / 3 ;
+    grid-column: 2 / 3;
+}
+
+section.Categories div.category div.Scard:nth-child(3)
+div.details  div.btn-sm:nth-child(2){
+    display: none;
+}
+
+section.Categories div.category div.Scard:nth-child(3) div.L-R-Arrow{
+    display: none;
+}
+
+section.Categories div.category div.Scard:nth-child(4){
+    grid-row: 3 / 4 ;
+    grid-column: 2 / 3 ;
+}
+
+section.Categories div.category div.Scard:nth-child(4)
+div.details  div.btn-sm:nth-child(2){
+    display: none;
+}
+
+section.Categories div.category div.Scard:nth-child(4) div.L-R-Arrow{
+    display: none;
+}
+ 
+
+/* big card nth-child 1 */
+section.Categories div.category div.Scard:nth-child(1){
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+
+    border-radius: var(--border-r-24);
+    position: relative;
+    padding: 0;
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.G-img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-r-16);
+}
+
+section.Categories div.category div.Scard:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(0, 0, 0, 0.8)
+    );
+    border-radius: var(--border-r-16);
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.L-R-Arrow{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.L-R-Arrow>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--w-main-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.details{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+
+section.Categories div.category div.Scard:nth-child(1) div.details div.Gtag
+div.btn-sm{
+    background-color: var(--p-opactiy-color-75);
+    width: 80px;
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.details div.title
+div.views>p{
+    color: var(--w-main-color);
+    font-size: var(--font-size-Caption2);
+}
+
+section.Categories div.category div.Scard:nth-child(1)
+div.details div.title div.btn-sm{
+    background-color: var(--p-opactiy-color-50);
+    color: var(--w-main-color);
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.details  button.btn{
+    background-color: var(--p-main-color);
+}
+
+
+
+
+/* recommender videos  */
+section.Recommended-videos {
+    width: 75%;
+    height: 500px;
+    margin-top: var(--margin-section);
+    margin-bottom: 80px;
+}
+
+
+section.Recommended-videos>div.top{
+    width: 100%;
+    height: 50px;
+}
+
+section.Recommended-videos div.top>div.filter{
+    width: 200px;
+    height: 50px;
+    background-color:var(--w-opacity-color-5);
+    border-radius: var(--border-r-16);
+}
+
+section.Recommended-videos div.top>div.filter>h6{
+    font-size: var(--font-size-menu-14);
+    color: var(--w-opacity-color-60);
+    font-weight: normal;
+}
+
+section.Recommended-videos div.top>div.filter>div.arrow{
+    width: 25px;
+    height: 25px;
+}
+
+section.Recommended-videos div.reco-cards{
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+section.Recommended-videos div.reco-cards div.card{
+    background-color: var(--bg-card);
+    height: 400px;
+    width: 260px;
+    border-radius: var(--border-r-24);
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top>div.img{
+    width: 100%;
+    height: 170px;
+    border-radius: 24px 24px 0 0 ;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top> div.discription {
+    width: 80%;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top> div.discription>h6{
+    width: 90%;
+    font-size: var(--font-size-h6-18);
+    color: var(--w-main-color);
+    font-weight:500;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.game-name{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+    font-weight: normal;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name>h6{
+    font-size: var(--font-size-Caption1);
+    color: var(--w-main-color);
+    font-weight: normal;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name> div.validation-user{
+    background-color: #7FBA7A;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name> div.validation-user 
+img{
+    width: 10px;
+    height: 8px;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.bottom {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid var(--d-shades-color-2);
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.bottom div.watchig div.blue-point{
+    width: 8px;
+    height: 8px;
+    background-color: var(--s-shades-color-4);
+    border-radius: 50%;
+}
+
+section.Recommended-videos div.reco-cards div.card
+div.bottom div.watchig>p{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+}
+

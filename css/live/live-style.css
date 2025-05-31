@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+}
+
+
+
+/* header section  */
+main header {
+    background-image: url(../../img/imgs/img2.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: var(--border-r-16);
+   
+    height: 687px;
+    width: 100%;
+    position: relative;
+    gap: 100px;
+}
+
+main header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(0, 0, 0, 0.9)
+    );
+    border-radius: var(--border-r-16);
+}
+
+main header div.video-upload{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+
+
+/* playlist section  */
+
+section.playlist{
+    margin-top: var(--margin-section);
+    width: 100%;
+    /* height: 315px; */
+    height: auto;
+}
+
+section.playlist div.p-container{
+    width: 90%;
+}
+
+
+section.playlist div.p-container div.top{
+    width: 100%;
+    height: 50px;
+}
+
+section.playlist div.p-container div.top div.filter{
+    width: 235px;
+    height: 50px;
+    background-color:var(--w-opacity-color-5);
+    border-radius: var(--border-r-16);
+}
+
+section.playlist div.p-container div.top div.filter>p{
+    font-size: var(--font-size-menu-14);
+    color: var(--d-shades-color-1);
+}
+
+
+section.playlist div.p-container div.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+section.playlist div.p-container div.cards div.card{
+    background-color: rgb(228, 228, 228, 0.1) ;
+    border-radius: var(--border-r-16);
+    position: relative;
+}
+
+section.playlist div.p-container div.cards div.card img{
+    border-radius: var(--border-r-12);
+    width: 77px;
+    height: 100%; 
+
+}
+
+section.playlist div.p-container div.cards div.card 
+div.title div.name h6{
+    font-size: var(--font-size-Caption1);
+}
+
+section.playlist div.p-container div.cards div.card 
+div.title p{
+    color: var(--d-shades-color-1);
+    font-size: var(--font-size-Caption2);
+}
+
+section.playlist div.p-container div.cards div.card 
+div.title div.views div.point{
+    background-color: var(--accent-2-shades1-color);
+}
+
+section.playlist div.p-container div.manage-playlists{
+    display: none;
+    width: 100%;
+    height: 56px;
+}
+
+section.playlist div.p-container div.manage-playlists 
+div.manage{
+    width: 230px;
+    height: 56px;
+    background-color: rgb(228, 228, 228, 0.1) ;
+    border-radius: var(--border-r-16);
+}
+
+section.playlist div.p-container div.manage-playlists
+ div.manage>p{
+    font-size: var(--font-size-menu-14);
+    font-weight: bold;
+    color: var(--w-main-color);
+
+}
+
+
+/* card hover */
+section.playlist div.p-container div.cards div.card:hover{
+    background-color: var(--p-main-color);
+    cursor: pointer;
+}
+
+section.playlist div.p-container div.cards div.card:hover img{
+    width: 70px;
+    height: 93px;
+    margin-left: 5px;
+}
+
+
+section.playlist div.p-container div.cards div.card:hover::after{
+    content: url(../../img/icon/validation-icon-w.svg);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--onlineVlid-follow-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+/* Categories section  */
+section.Categories {
+    width: 90%;
+    height: 748px;
+    margin-top: var(--margin-section-s);
+}
+
+section.Categories div.category{
+	display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+	gap: 32px;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* for all cards */
+section.Categories div.category div.Scard{
+	background-color: var(--bg-card);
+    border-radius: var(--border-r-24);
+    padding: 8px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+section.Categories div.category div.Scard div.details div.title
+div.btn-sm{
+    width: 94px;
+    background-color: var(--p-opactiy-color-10);
+    color: var(--s-shades-color-4);
+    font-weight: bold;
+}
+
+section.Categories div.category  div.details div.title 
+div.views>p{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+}
+
+section.Categories div.category div.Scard div.details  button.btn{
+    background-color: var(--d-shades-color-2);
+    transition: all 300ms linear;
+}
+
+section.Categories div.category div.Scard div.details  button.btn:hover{
+    background-color: var(--p-main-color);
+}
+
+section.Categories div.category div.Scard div.G-img{
+    width: 45%;
+    height: 100%;
+    border-radius: var(--border-r-16);
+}
+
+ 
+
+/* big card nth-child 1 */
+section.Categories div.category div.scard:nth-child(1){
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+
+    border-radius: var(--border-r-24);
+    position: relative;
+    padding: 0;
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.G-img {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--border-r-16);
+}
+
+section.Categories div.category div.scard:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(0, 0, 0, 0.8)
+    );
+    border-radius: var(--border-r-16);
+}
+
+section.Categories div.category div.scard:nth-child(1) div.L-R-Arrow{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+section.Categories div.category div.scard:nth-child(1) div.L-R-Arrow>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--w-main-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+section.Categories div.category div.scard:nth-child(1) div.details{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    z-index: 1;
+}
+
+
+section.Categories div.category div.scard:nth-child(1) div.details div.Gtag
+div.btn-sm{
+    background-color: var(--p-opactiy-color-75);
+    width: 80px;
+}
+
+section.Categories div.category div.scard:nth-child(1) div.details div.title
+div.views>p{
+    color: var(--w-main-color);
+    font-size: var(--font-size-Caption2);
+}
+
+section.Categories div.category div.scard:nth-child(1)
+div.details div.title div.btn-sm{
+    background-color: var(--p-opactiy-color-50);
+    color: var(--w-main-color);
+}
+
+section.Categories div.category div.Scard:nth-child(1) div.details  button.btn{
+    background-color: var(--p-main-color);
+}
+
+
+ /* other cards */
+section.Categories div.category div.scard:nth-child(2){
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+
+section.Categories div.category div.scard:nth-child(2)
+div.details  div.btn-sm:nth-child(2){
+    display: none;
+}
+
+section.Categories div.category div.scard:nth-child(2) div.L-R-Arrow{
+    display: none;
+}
+
+section.Categories div.category div.scard:nth-child(3){
+    grid-row: 2 / 3 ;
+    grid-column: 2 / 3;
+}
+
+section.Categories div.category div.scard:nth-child(3)
+div.details  div.btn-sm:nth-child(2){
+    display: none;
+}
+
+section.Categories div.category div.scard:nth-child(3) div.L-R-Arrow{
+    display: none;
+}
+
+section.Categories div.category div.scard:nth-child(4){
+    grid-row: 3 / 4 ;
+    grid-column: 2 / 3 ;
+}
+
+section.Categories div.category div.scard:nth-child(4)
+div.details  div.btn-sm:nth-child(2){
+    display: none;
+}
+
+section.Categories div.category div.scard:nth-child(4) div.L-R-Arrow{
+    display: none;
+}
+
+
+
+
+/* article section  */
+article.live-channels {
+    width: 90%;
+    height: 500px;
+    margin-top: var(--margin-section);
+}
+
+article.live-channels>div.top{
+    width: 100%;
+    height: 50px;
+}
+
+article.live-channels div.top>div.filter{
+    width: 200px;
+    height: 50px;
+    background-color:var(--w-opacity-color-5);
+    border-radius: var(--border-r-16);
+}
+
+article.live-channels div.top>div.filter>h6{
+    font-size: var(--font-size-menu-14);
+    color: var(--w-opacity-color-60);
+    font-weight: normal;
+}
+
+article.live-channels div.top>div.filter>div.arrow{
+    width: 25px;
+    height: 25px;
+}
+
+/* cards js */
+article.live-channels div.live-cards{
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+article.live-channels div.live-cards div.card{
+    background-color: var(--bg-card);
+    height: 400px;
+    width: 260px;
+    border-radius: var(--border-r-24);
+}
+
+article.live-channels div.live-cards div.card
+div.top>div.img{
+    width: 100%;
+    height: 170px;
+    border-radius: 24px 24px 0 0 ;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription {
+    width: 80%;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription>h6{
+    width: 90%;
+    font-size: var(--font-size-h6-18);
+    color: var(--w-main-color);
+    font-weight:500;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.game-name{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+    font-weight: normal;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name>h6{
+    font-size: var(--font-size-Caption1);
+    color: var(--w-main-color);
+    font-weight: normal;
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name> div.validation-user{
+    background-color: #7FBA7A;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+
+article.live-channels div.live-cards div.card
+div.top> div.discription div.user div.img
+div.user-name div.name> div.validation-user 
+img{
+    width: 10px;
+    height: 8px;
+}
+
+article.live-channels div.live-cards div.card
+div.bottom {
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid var(--d-shades-color-2);
+}
+
+article.live-channels div.live-cards div.card
+div.bottom div.watchig div.blue-point{
+    width: 8px;
+    height: 8px;
+    background-color: var(--s-shades-color-4);
+    border-radius: 50%;
+}
+
+article.live-channels div.live-cards div.card
+div.bottom div.watchig>p{
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+}
+
+
+
+
+/* chanchannels-you-follow section  */
+section.channels-you-follow {
+    width: 100%;
+    margin-top: var(--margin-section-s);
+    padding: 0 64px;
+    margin-bottom: 14px;
+}
+
+section.channels-you-follow div.c-container {
+    width: 100%;
+    border-radius: var(--border-r-24);
+    background:var(--bg-card);
+}   
+
+section.channels-you-follow div.c-container div.title{
+    width: 100%;
+    padding: 32px 0 0 32px;
+}
+
+section.channels-you-follow div.c-container div.channels {
+    width: 100%;
+    /* height: 200px;     */
+    overflow-x: scroll;
+    scrollbar-width: none;
+    padding: 32px;
+}
+
+section.channels-you-follow div.c-container div.channels div.channel{
+    width: 72px;
+    height: 148px;
+}
+
+section.channels-you-follow div.c-container div.channels div.channel
+div.avatar {
+    width: 100%;
+    height: 72px;
+    border-radius: 50%;
+    position: relative;
+}
+
+section.channels-you-follow div.c-container div.channels div.channel
+div.avatar>img{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    outline-color: var(--s-shades-color-4);
+    outline-style: solid;
+    outline-offset: 3px;
+}
+
+section.channels-you-follow div.c-container div.channels div.channel
+div.avatar>div.img-plus{
+    background-color: var(--p-main-color);
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+section.channels-you-follow div.c-container div.channels 
+div.channel div.avatar> div.online-state{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: var(--onlineVlid-follow-color);
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+section.channels-you-follow div.c-container div.channels 
+div.channel:nth-child(2) div.avatar>div.online-state{
+    background-color: var(--onlineVlid-follow-color);
+    outline-color: var(--w-main-color);
+    outline-style: solid;
+    top: 5px;
+    right: 5px;
+}
+
+section.channels-you-follow div.c-container div.channels 
+div.channel:nth-child(3) div.avatar>div.online-state{
+    width: 24px;
+    height: 24px;
+    background-color: var(--p-main-color);
+}
+
+section.channels-you-follow div.c-container div.channels
+ div.channel:nth-child(4) div.avatar>div.online-state{
+    background-color: var(--notOnline-follow-color);
+    outline-color: var(--w-main-color);
+    outline-style: solid;
+    top: 5px;
+    right: 5px;
+}
+
+section.channels-you-follow div.c-container div.channels 
+div.channel:nth-child(5) div.avatar>div.online-state{
+    width: 24px;
+    height: 24px;
+    background-color: var(--accent-2-shades1-color);
+}
+
+section.channels-you-follow div.c-container div.channels
+ div.channel:nth-child(6) div.avatar>div.online-state{
+    width: 24px;
+    height: 24px;
+    background-color: var(--accent-2-shades1-color);
+}
+
+section.channels-you-follow div.c-container div.channels 
+div.channel:nth-child(7) div.avatar>div.online-state{
+    background-color: var(--onlineVlid-follow-color);
+    outline-color: var(--w-main-color);
+    outline-style: solid;
+    top: 5px;
+    right: 5px;
+}
+
+section.channels-you-follow div.c-container div.channels
+ div.channel:nth-child(8) div.avatar>div.online-state{
+    width: 24px;
+    height: 24px;
+    background-color: var(--p-main-color);
+}
+
+section.channels-you-follow div.c-container div.channels div.channel
+div.avatar div.name-time{
+    width: 100%;
+}
+
+section.channels-you-follow div.c-container div.channels div.channel
+ div.name-time>h2{
+    text-align: center;
+    font-size: var(--font-size-Caption1);
+    color: var(--w-main-color);
+    font-weight: normal;
+}
+
+section.channels-you-follow div.c-container div.channels div.channel
+ div.name-time>h3{
+    text-align: center;
+    font-size: var(--font-size-Caption2);
+    color: var(--d-shades-color-1);
+    font-weight: normal;
+}
+

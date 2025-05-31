@@ -1,0 +1,675 @@
+/* navbar */
+nav{
+    width: 256px;
+    height: auto;
+    box-shadow: inset -1px 0px 0px rgb(228 228 228 / 10%) ;
+    display: flex;
+}
+
+
+nav.mobile-sidebar.show {
+    transform: translateX(0) !important;
+}
+
+
+
+
+
+/* top  */
+nav div.top div.logo{
+    width: 222px;
+    height: 32px;
+    margin-top: 30px
+}
+
+nav div.top div.logo a.name{
+    color: var(--w-main-color);
+    text-decoration: none;
+}
+
+nav div.top div.logo div.burger-icon>div{
+    background-color: var(--w-main-color);
+    width: 32px;
+    height: 2px;
+}
+
+
+/* menu  */
+nav div.top div.menu {
+   width: 216px;
+   height: 312px;
+}
+
+nav div.top div.menu ul li {
+    list-style: none;
+    font-size: var(--font-size-16);
+    width: 218px;
+    height: 56px;
+    display: flex;
+    padding-left: 20px;
+}
+
+nav div.top div.menu ul li:nth-child(1){
+    /* padding: 2px 16px; */
+    height: 32px;
+    color: var(--d-shades-color-1);
+    font-size: var(--font-size-Caption1);
+
+}
+
+nav div.top div.menu ul li a{
+    text-decoration: none;
+    font-size: var(--font-size-menu-14);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+nav div.top div.menu ul li a:not(.nav-active){
+    color: var(--d-shades-color-1);
+}
+
+
+
+nav div.top div.menu ul li a img{
+    width: 20px;
+    height: 20px;
+}
+
+/* menu after line  */
+nav div.top div.menu::after{
+    content: '';
+    width: 176px;
+    height: 1px;
+    background: var(--w-opacity-color-10);
+    display: block;
+    margin: 32px auto;
+}
+
+/* following */
+nav div.top div.following{
+    margin-top: 30px;
+    width: 180px ;
+    height:480px ;
+}
+
+nav div.top div.following div.following-container div:nth-child(1){
+
+    height: 32px;
+    color: var(--d-shades-color-1);
+    font-weight: normal;
+}
+
+
+nav div.top div.following div.following-container div{
+    width: 100%;
+    height: 56px;
+    color: var(--d-shades-color-1);
+    font-size: var(--font-size-menu-14);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav div.top div.following div.following-container div.container{
+    gap: 15px;
+}
+
+nav div.top div.following div.following-container div.container div.name>p{
+    width: 112px;
+}
+
+/* following after line  */
+nav div.top div.following::after{
+    content: '';
+    width: 176px;
+    height: 1px;
+    display: block;
+    background: var(--w-opacity-color-10);
+    margin: 32px auto;
+}
+
+
+/* unity gaming */
+nav div.top div.unity-gaming{
+    margin-top: 30px;
+    width: 180px ;
+    height: 144px;
+}
+
+nav div.top div.unity-gaming div.untiy-container div:nth-child(1){
+
+    height: 32px;
+    color: var(--d-shades-color-1);
+    font-weight: normal;
+}
+
+nav div.top div.unity-gaming div.untiy-container div{
+    width: 100%;
+    height: 56px;
+    color: var(--d-shades-color-1);
+    font-size: var(--font-size-menu-14);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav div.top div.unity-gaming
+ div.untiy-container div.container{
+    gap: 15px;
+}
+
+nav div.top div.unity-gaming
+ div.untiy-container div.container div.name>p{
+    width: 112px;
+ }
+
+
+nav div.top div.unity-gaming
+ div.untiy-container div.container div.name>div.alarms{
+    width: 24px;
+    height: 24px;
+    background-color: var(--accent-2-shades1-color);
+    border-radius: 50%;
+    justify-content: center;
+    color: var(--w-main-color);
+    font-weight: normal;
+}
+
+nav div.bottom {
+    width: 100%;
+    height: 458px;
+}
+
+nav div.bottom div.join{
+    width: 85%;
+    height: 360px;
+    border-radius: var(--border-r-20);
+    background: url(../../img/imgs/img-nav.svg);
+    box-shadow: 0px 0px 1px 0px rgba(255, 255, 255, 0.138);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+nav div.bottom div.join::before{
+    content: '';
+    background-color: var(--d-opacity-color-50);
+    z-index: -1;
+    position: absolute;
+    bottom: -10px;
+    width: 90%;
+    height: 80%;
+    border-radius: var(--border-r-20);
+}
+
+nav div.bottom div.join::after{
+    content: '';
+    background-color: var(--d-opacity-color-20);
+    z-index: -2;
+    position: absolute;
+    bottom: -17px;
+    width: 75%;
+    height: 80%;
+    border-radius: var(--border-r-20);
+}
+
+nav div.bottom div.join div.close{
+    width: 24px;
+    height: 24px;
+    background-color: var(--d-main-color);
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+nav div.bottom div.join div.text{
+    position: absolute;
+    bottom: 25px;
+    width: 90%;
+
+}
+
+nav div.bottom div.join div.text div.paragraph>h3{
+    font-size: var(--font-size-h5-24);
+    color: var(--w-main-color);
+    font-weight: normal;
+    width: 90%;
+}
+
+nav div.bottom div.join div.text div.paragraph>p{
+    font-size: var(--font-size-Caption2);
+    color: var(--w-main-color);
+    width: 90%;
+}
+
+nav div.bottom div.join div.text>button{
+    width: 100%;
+}
+
+nav div.bottom div.purchase{
+    width: 100%;
+    height: 72px;
+    border-top: 1px solid var(--w-opacity-color-10);
+}
+
+nav div.bottom div.purchase img{
+    width: 24px;
+    height: 24px;
+}
+
+nav div.bottom div.purchase div.dark-mode-change{
+    width: 64px;
+    height: 24px;
+    background: var(--w-opacity-color-10);
+    border-radius: var(--border-r-16);
+    position: relative;
+    cursor: pointer;
+    transition: all  300ms ease-in-out;
+
+}
+
+nav div.bottom div.purchase div.dark-mode-change>div.switch{
+    width: 6px;
+    height: 20px;
+    border-radius: var(--border-r-16);
+    background-color: #3F8CFF;
+    position: absolute;
+    right: 10px;
+    transition: all  300ms ease-in-out;
+}
+
+nav div.bottom div.purchase div.dark-mode-change:hover div.switch{
+    transform: translatex(-40px);
+
+}
+nav div.bottom div.purchase div.dark-mode-change:hover{
+    background-color: var(--w-main-color);
+}
+
+
+
+
+/* search-bar  */
+
+/*  start main section */
+main {
+    display: flex;
+    height: fit-content;
+    width: 83%;
+    align-items: center;
+}
+
+main div.search-bar-container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    box-shadow: inset 0px -1px 0px rgb(228 228 228 / 10%);
+
+}
+
+main div.search-bar-container div.left{
+    flex: 1;
+    height: 100%;
+    padding-left: var(--padding-s-l);
+    position: relative;
+}
+
+
+main div.search-bar-container
+div.burger-icon {
+    display: none;
+}
+
+main div.search-bar-container
+div.burger-icon>div {
+    background-color: var(--w-main-color);
+    width: 32px;
+    height: 2px;
+    /* margin-top: 6px; */
+}
+
+main div.search-bar-container div.left
+div.browse div.text h5{
+    color: var(--d-shades-color-1);
+    font-weight:normal;
+    font-size: var(--font-size-menu-14);
+}
+
+main div.search-bar-container div.left
+div.browse div.browse-tool-box-container{
+    size: 24px;
+}
+
+main div.search-bar-container div.left
+div.search div.text-input> input{
+    background-color: transparent;
+    border: none;
+    /* border: 1px solid var(--w-opacity-color-10); */
+    padding: 0px 10px;
+    outline: none;
+    color: var(--d-shades-color-1);
+}
+
+main div.search-bar-container div.right{
+    flex: 1;
+    height: 100%;
+    padding-right: var(--padding-s-l);
+    position: relative;
+}
+
+main div.search-bar-container div.right 
+div.notify{
+    width: 70%;
+    height: 70%;
+}
+
+main div.search-bar-container div.right div.notify div.notification{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+main div.search-bar-container div.right div.notify 
+div.notification>div.notification-num{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-2-shades1-color);
+    color: var(--w-main-color);
+    border-radius: 50%;
+    font-size: var(--font-size-Caption2);
+}
+
+
+main div.search-bar-container div.right 
+div.notify div.avatar{
+    width: 50px;
+    height: 50px;
+    background: url(../../img/icon/Avatar.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+
+/* rectangle browse  */
+main div.search-bar-container div.left div.rect-browse{
+    position: absolute;
+    top: 100px;
+    left: 22px;
+    background-color: var(--bg-card);
+    width: 414px;
+    height: 425px;
+    border-radius: var(--border-r-20);
+    z-index: 3;
+    overflow-y: scroll;
+    box-shadow: 4px 11px 20px 0px #000000;
+}
+
+main div.search-bar-container div.left div.rect-browse div.title{
+    width: 100%;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    background-color: var(--bg-card);
+    padding: 15px;
+}
+
+main div.search-bar-container div.left div.rect-browse div.title
+div.name>p{
+    height: 100%;
+    width: 24px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div.search-bar-container div.left div.rect-browse div.title>img{
+    height: 100%;
+}
+
+main div.search-bar-container div.left div.rect-browse
+div.playlist-drop{
+    width: 100%;
+    padding: 12px;
+}
+
+
+main div.search-bar-container div.left div.rect-browse
+div.playlist-drop div.list{
+    width: 100%;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+main div.search-bar-container div.left div.rect-browse
+div.playlist-drop div.list>img{
+    outline: 2px solid var(--notOnline-follow-color);
+    outline-offset: 3px;
+    border-radius: 50%;
+}
+
+
+/* rectangle notifcation */
+main div.search-bar-container div.right div.rect-notification{
+    position: absolute;
+    top: 100px;
+    right: 65px;
+    background-color: var(--bg-card);
+    width: 422px;
+    height: 600px;
+    border-radius: var(--border-r-20);
+    z-index: 3;
+}
+
+main div.search-bar-container div.right div.rect-notification div.title{
+    width:100%;
+    padding: 30px;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list {
+    width: 96%;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list{
+    width: 100%;
+    height: 80px;
+    padding: 16px;
+
+}
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.img{
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.img > img{
+    width: 100%;
+    height: 100%;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.img > div.icon{
+    width: 20px;
+    height: 20px;
+    background-color: var(--notOnline-follow-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    outline: 3px solid rgb(255, 255, 255);
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.img > div.icon img{
+    width: 15px;
+    height: 15px;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.name{
+    width: 250px;
+    color: var(--w-main-color);
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.name p{
+    font-size: var(--font-size-Caption1);
+    font-weight: 500;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.name div.descrip :nth-child(1){
+    color: var(--w-opacity-color-60);
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.name div.descrip :nth-child(2){
+    font-weight: bold;
+    color: var(--notOnline-follow-color);
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.hour{
+    height: 100%;
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list div.hour p{
+    color: var(--w-opacity-color-60);
+    font-size: var(--font-size-Caption2);
+}
+
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list:hover{
+    border-radius: var(--border-r-12) ; 
+    background-color: var(--p-main-color);
+    color: var(--w-main-color);
+    cursor: pointer;
+}
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list:hover div.name div.descrip :nth-child(1){
+    color: var(--w-main-color);
+}
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list:hover div.name div.descrip :nth-child(2){
+    color: var(--w-main-color);
+}
+main div.search-bar-container div.right div.rect-notification
+div.notification-list div.n-list:hover div.hour p{
+    color: var(--w-main-color);
+}
+
+
+
+/* rectangle avatar */
+main div.search-bar-container div.right div.rect-avatar {
+    position: absolute;
+    top: 100px;
+    right: 65px;
+    background-color: var(--bg-card);
+    width: 343px;
+    height: 270px;
+    border-radius: var(--border-r-20);
+    z-index:3;
+    padding: 35px 24px;
+    box-shadow: 0px 6px #24273142, 0px 10px #f0f3f612;
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name{
+    width: 100%;
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name div.user{
+    width: 100%;
+}
+main div.search-bar-container div.right div.rect-avatar
+div.name div.user div.img{
+    height: 100%;
+    position: relative;
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name div.user div.img>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    outline: 2px solid var(--notOnline-follow-color);
+    outline-offset: 2px;
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name div.user div.img>div.online{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2px;
+    right: 2px;
+    outline: 3px solid var(--bg-card);
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name div.user div.user-name div.top div.valid{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--onlineVlid-follow-color);
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name div.user div.user-name div.details> p {
+    font-size: var(--font-size-Caption1);
+    color: var(--w-main-color);
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.name>p{
+    font-size: var(--font-size-menu-14);
+    color: var(--d-shades-color-1);
+}
+
+
+main div.search-bar-container div.right div.rect-avatar
+div.bottoms {
+    width: 100%;
+}
+main div.search-bar-container div.right div.rect-avatar
+div.bottoms a>button{
+    width: 222px;
+}
+
+main div.search-bar-container div.right div.rect-avatar
+div.bottoms div.setting img{
+    transition: all 500ms linear;
+}
+main div.search-bar-container div.right div.rect-avatar
+div.bottoms div.setting:hover img{
+    transform: rotate(180deg);
+}
