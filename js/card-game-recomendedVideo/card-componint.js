@@ -18,7 +18,7 @@ export default function caedComponint(items){
                                     <div class="name flex flex-item-center gap-5">
                                         <h6>${user_name}</h6>
                                         <div class="validation-user flex flex-item-center flex-justify-center">
-                                            <img src="/img/icon/valid-r.svg" alt="" class="valid">
+                                            <img src="img/icon/valid-r.svg" alt="" class="valid">
                                         </div>
                                     </div>
                                     <div class="game-name">${game_name}</div>
@@ -29,7 +29,7 @@ export default function caedComponint(items){
                 </div>
                 <div class="bottom flex flex-item-center flex-justify-around">
                     <div class="btn-sm">
-                        <img src="/img/icon/live-w.svg" alt="white wifi">
+                        <img src="img/icon/live-w.svg" alt="white wifi">
                         <p>Live</p>
                     </div>
                     <div class="watchig flex flex-item-center flex-justify- gap-5">

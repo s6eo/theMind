@@ -80,7 +80,7 @@ div.slider-container div.t-card div.bg-filter{
     height: 100%;
     width: 785px;
     border-radius:var(--border-r-32);
-    background: url(/img/imgs/img5.svg);
+    background: url(img/imgs/img5.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,7 +88,7 @@ div.slider-container div.t-card div.bg-filter{
 
 main header div.trending-slid-container
 div.slider-container div.t-card:nth-child(2) div.bg-filter{
-    background: url(/img/imgs/img4.svg);
+    background: url(img/imgs/img4.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -323,7 +323,7 @@ div.card-container div.num{
 
 main section.trending div.trending-cards
 div.card-container div.card-img{
-    background: url(/img/imgs/img8.svg);
+    background: url(img/imgs/img8.svg);
     background-size: cover;
     width: 240px;
     height: 204px;
@@ -593,19 +593,19 @@ div.games-container div.game-card div.title p:nth-child(2){
 
 main section.trending div.widget div.game
 div.games-container div.game-card:nth-child(1) div.img{
-    background:url(/img/game/callofduty.svg);
+    background:url(img/game/callofduty.svg);
 }
 main section.trending div.widget div.game
 div.games-container div.game-card:nth-child(2) div.img{
-    background:url(/img/game/counter.svg);
+    background:url(img/game/counter.svg);
 }
 main section.trending div.widget div.game
 div.games-container div.game-card:nth-child(3) div.img{
-    background:url(/img/game/fortnite.svg);
+    background:url(img/game/fortnite.svg);
 }
 main section.trending div.widget div.game
 div.games-container div.game-card:nth-child(4) div.img{
-    background:url(/img/game/league.svg);
+    background:url(img/game/league.svg);
 }
 
 

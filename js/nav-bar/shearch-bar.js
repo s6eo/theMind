@@ -14,15 +14,15 @@ export default function searchBar(){
                 </div>
                 <div class="browse flex flex-item-center gap-50 cursor">
                     <div class="text flex flex-item-center gap-20">
-                        <img src="/img/icon/Browse.svg" alt="browse-img">
+                        <img src="img/icon/Browse.svg" alt="browse-img">
                         <h5>Browse</h5>
                     </div>
                     <div class="browse-tool-box-container flex flex-item-center flex-justify-center">
-                        <img src="/img/icon/small-right.svg" alt="browse-tool-box">
+                        <img src="img/icon/small-right.svg" alt="browse-tool-box">
                     </div>
                 </div>
                 <div class="search flex flex-item-center gap-20 cursor">
-                    <img src="/img/icon/Search.svg" alt="search-img">
+                    <img src="img/icon/Search.svg" alt="search-img">
                     <div class="text-input">
                         <input type="search" name="" id="" placeholder="Search Everthing">
                     </div>
@@ -36,43 +36,43 @@ export default function searchBar(){
                             <p>🎮</p>
                             <h5>Browse Games</h5>
                         </div>
-                        <img src="/img/icon/close.svg" alt="closebtn" class="close-btn cursor">
+                        <img src="img/icon/close.svg" alt="closebtn" class="close-btn cursor">
                     </div>
                     <div class="playlist-drop flex flex-column flex-item-center">
                         <div class="list active ">
-                            <img src="/img/imgs/Oval-brw1.svg" alt="">
+                            <img src="img/imgs/Oval-brw1.svg" alt="">
                             <h6>League of Legends®</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw2.svg" alt="">
+                            <img src="img/imgs/Oval-brw2.svg" alt="">
                             <h6>War Games</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw3.svg" alt="">
+                            <img src="img/imgs/Oval-brw3.svg" alt="">
                             <h6>Fortnite®</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw1.svg" alt="">
+                            <img src="img/imgs/Oval-brw1.svg" alt="">
                             <h6>League of Legends®</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw2.svg" alt="">
+                            <img src="img/imgs/Oval-brw2.svg" alt="">
                             <h6>War Games</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw3.svg" alt="">
+                            <img src="img/imgs/Oval-brw3.svg" alt="">
                             <h6>Fortnite®</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw1.svg" alt="">
+                            <img src="img/imgs/Oval-brw1.svg" alt="">
                             <h6>League of Legends®</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw2.svg" alt="">
+                            <img src="img/imgs/Oval-brw2.svg" alt="">
                             <h6>War Games</h6>
                         </div>
                         <div class="list">
-                            <img src="/img/imgs/Oval-brw3.svg" alt="">
+                            <img src="img/imgs/Oval-brw3.svg" alt="">
                             <h6>Fortnite®</h6>
                         </div>
 
@@ -83,10 +83,10 @@ export default function searchBar(){
 
             <div class="right flex flex-item-center flex-justify-end">
                 <div class="notify flex flex-item-center flex-justify-end gap-50" >
-                    <img src="/img/icon/Plus.svg" alt="plus-img" class="plus-img cursor">
-                    <img src="/img/icon/Chat.svg" alt="chat-img" class="chat-img cursor">
+                    <img src="img/icon/Plus.svg" alt="plus-img" class="plus-img cursor">
+                    <img src="img/icon/Chat.svg" alt="chat-img" class="chat-img cursor">
                     <div class="notification flex flex-item-center flex-justify-center">
-                        <img src="/img/icon/Notification.svg" alt="Notification-img" class="notification-img cursor">
+                        <img src="img/icon/Notification.svg" alt="Notification-img" class="notification-img cursor">
                         <div class="notification-num flex flex-item-center flex-justify-center">2</div>
                     </div>
                     <div class="avatar cursor"></div>
@@ -100,9 +100,9 @@ export default function searchBar(){
                     <div class="notification-list flex flex-column flex-item-center ">
                        <div class="n-list flex flex-item-center flex-justify-between gap-15">
                          <div class="img">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="icon flex flex-item-center flex-justify-center">
-                                <img src="/img/icon/Chat-s.svg" alt="">
+                                <img src="img/icon/Chat-s.svg" alt="">
                             </div>
                         </div>
                         <div class="name flex flex-column flex-item-start">
@@ -118,9 +118,9 @@ export default function searchBar(){
                        </div>
                         <div class="n-list flex flex-item-center flex-justify-between gap-15">
                          <div class="img">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="icon flex flex-item-center flex-justify-center">
-                                <img src="/img/icon/Chat-s.svg" alt="">
+                                <img src="img/icon/Chat-s.svg" alt="">
                             </div>
                         </div>
                         <div class="name flex flex-column flex-item-start">
@@ -136,9 +136,9 @@ export default function searchBar(){
                        </div>
                         <div class="n-list flex flex-item-center flex-justify-between gap-15">
                          <div class="img">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="icon flex flex-item-center flex-justify-center">
-                                <img src="/img/icon/Chat-s.svg" alt="">
+                                <img src="img/icon/Chat-s.svg" alt="">
                             </div>
                         </div>
                         <div class="name flex flex-column flex-item-start">
@@ -154,9 +154,9 @@ export default function searchBar(){
                        </div>
                         <div class="n-list flex flex-item-center flex-justify-between gap-15">
                          <div class="img">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="icon flex flex-item-center flex-justify-center">
-                                <img src="/img/icon/Chat-s.svg" alt="">
+                                <img src="img/icon/Chat-s.svg" alt="">
                             </div>
                         </div>
                         <div class="name flex flex-column flex-item-start">
@@ -172,9 +172,9 @@ export default function searchBar(){
                        </div>
                         <div class="n-list flex flex-item-center flex-justify-between gap-15">
                          <div class="img">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="icon flex flex-item-center flex-justify-center">
-                                <img src="/img/icon/Chat-s.svg" alt="">
+                                <img src="img/icon/Chat-s.svg" alt="">
                             </div>
                         </div>
                         <div class="name flex flex-column flex-item-start">
@@ -189,9 +189,9 @@ export default function searchBar(){
                        </div>
                         <div class="n-list flex flex-item-center flex-justify-between gap-15">
                          <div class="img">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="icon flex flex-item-center flex-justify-center">
-                                <img src="/img/icon/Chat-s.svg" alt="">
+                                <img src="img/icon/Chat-s.svg" alt="">
                             </div>
                         </div>
                         <div class="name flex flex-column flex-item-start">
@@ -213,14 +213,14 @@ export default function searchBar(){
                     <div class="name flex flex-column flex-item-center flex-justify-around gap-20">
                         <div class="user flex flex-item-center gap-20 ">
                             <div class="img">
-                                <img src="/img/following-img/img1.svg" alt="">
+                                <img src="img/following-img/img1.svg" alt="">
                                 <div class="online point"></div>
                             </div>
                             <div class="user-name flex flex-column flex-item-start flex-justify-start">
                                 <div class="top flex flex-item-center flex-justify-center gap-15">
                                     <h5>Dylan Hodges</h5>
                                     <div class="valid flex flex-item-center flex-justify-center">
-                                        <img src="/img/icon/validation-icon-w.svg" alt="">
+                                        <img src="img/icon/validation-icon-w.svg" alt="">
                                     </div>
                                 </div>
                                 <div class="details flex flex-item-center gap-15">
@@ -234,7 +234,7 @@ export default function searchBar(){
                     <div class="bottoms flex flex-item-center flex-justify-between gap-10">
                         <a href="../../avatar.html"><button class="btn">Visit Profile</button></a>
                         <div class="setting btn3 flex flex-item-center flex-justify-center">
-                            <img src="/img/icon/setting2.svg" alt="setting">
+                            <img src="img/icon/setting2.svg" alt="setting">
                         </div>
                     </div>
                 </div>
