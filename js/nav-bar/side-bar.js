@@ -10,7 +10,7 @@ export default function sideBar(){
                         <img src="img/icon/logo.png" alt="logo">
                         <h1>The Mind</h1>
                     </a>
-                    <div class="burger-icon flex flex-column gap-6"">
+                    <div class="burger-icon flex flex-column gap-6">
                         <div></div>
                         <div></div>
                     </div>
@@ -24,7 +24,7 @@ export default function sideBar(){
                                 <span> New Feed </span>
                             </a>
                         </li>
-                        <li><a href="/trending.html">
+                        <li><a href="trending.html">
                                 <img src="img/icon/treanding.svg" alt="">
                                 <span> Trending </span>
                             </a>
@@ -34,7 +34,7 @@ export default function sideBar(){
                                 <span> Following </span>
                             </a>
                         </li>
-                        <li><a href="/live.html">
+                        <li><a href="live.html">
                                 <img src="img/icon/video.svg" alt="">
                                 <p>Your Videos</p>
                                 <img src="img/icon/morevideo.svg" alt="">
