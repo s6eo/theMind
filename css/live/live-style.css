@@ -160,7 +160,7 @@ section.playlist div.p-container div.cards div.card:hover img{
 
 
 section.playlist div.p-container div.cards div.card:hover::after{
-    content: url(img/icon/validation-icon-w.svg);
+    content: url(../../img/icon/validation-icon-w.svg);
     width: 20px;
     height: 20px;
     border-radius: 50%;
