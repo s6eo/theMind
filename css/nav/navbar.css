@@ -398,7 +398,7 @@ main div.search-bar-container div.right
 div.notify div.avatar{
     width: 50px;
     height: 50px;
-    background: url(img/icon/Avatar.svg);
+    background: url(../img/icon/Avatar.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
