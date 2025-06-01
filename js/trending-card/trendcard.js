@@ -15,7 +15,7 @@ export default function cards(item){
                         <div class="details flex flex-column flex-justify-start gap-6">
                             <div class="button flex flex-item-center flex-justify-start gap-6" >
                             <button class="btn-sm flex flex-item-center flex-justify-center gap-5">
-                            <img src="/img/icon/live-w.svg" alt="">
+                            <img src="img/icon/live-w.svg" alt="">
                                 live
                             </button>
                             <button class="btn-sm2">shooter</button>
@@ -38,12 +38,12 @@ export default function cards(item){
                         </div>
 
                         <div class="avatar flex gap-10">
-                            <img src="/img/following-img/img1.svg" alt="">
+                            <img src="img/following-img/img1.svg" alt="">
                             <div class="name-cont flex flex-column">
                                 <div class="name flex flex-item-center gap-5">
                                     <h6>Gabriel Erickson </h6>
                                     <div class="valid flex flex-item-center flex-justify-center">
-                                        <img class="valid-img" src="/img/icon/validation-icon-w.svg" alt="">
+                                        <img class="valid-img" src="img/icon/validation-icon-w.svg" alt="">
                                     </div>
                                 </div>
                                 <p>call of Duty</p>
@@ -52,9 +52,9 @@ export default function cards(item){
                     </div>
 
                     <div class="card-hove flex flex-column flex-justify-center flex-item-center">
-                        <a href="" class="flex flex-item-center flex-justify-center"><img src="/img/icon/share.svg" alt=""></a>
-                        <a href="live.html" class="flex flex-item-center flex-justify-center"><img src="/img/icon/video-share.svg" alt=""></a>
-                        <a href="" class="flex flex-item-center flex-justify-center"><img src="/img/icon/favorite-share.svg" alt=""></a>
+                        <a href="" class="flex flex-item-center flex-justify-center"><img src="img/icon/share.svg" alt=""></a>
+                        <a href="live.html" class="flex flex-item-center flex-justify-center"><img src="img/icon/video-share.svg" alt=""></a>
+                        <a href="" class="flex flex-item-center flex-justify-center"><img src="img/icon/favorite-share.svg" alt=""></a>
                     </div>
                 </div>
         
