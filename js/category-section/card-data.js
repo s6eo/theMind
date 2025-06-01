@@ -5,6 +5,7 @@ let cardDetails =
         views:'4.9K Viewers',
         btn1:'Shooter',
         game_img:'img/imgs/img7.svg',
+        id: 333,
     },
     {
         title:'Call of Duty',

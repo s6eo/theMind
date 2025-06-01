@@ -18,7 +18,7 @@ let cardDetails =
         title:'Team Flash vs. Saigon Phantom',
         user_name:'Dash UI8',
         user_img:'img/icon/Avatar2.svg',
-        game_name:'Garena of Valor',
+        game_name:'Garena of Valor®',
         img:'img/imgs/img3.svg'  
     },
     {

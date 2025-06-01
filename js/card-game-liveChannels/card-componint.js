@@ -6,7 +6,7 @@ export default function caedComponint(items){
 
     const htmlCode = 
         `
-            <div class="card flex flex-column flex-justify-between">
+            <div class="card flex flex-column flex-justify-between ">
                 <div class="top flex flex-column flex-item-center flex-justify-center">
                     <div class="img" style="background: url(${img}); background-size: cover; background-position: left;"></div>
                     <div class="discription flex flex-column ">

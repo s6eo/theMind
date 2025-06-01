@@ -52,7 +52,7 @@ export default function sideBar(){
                     <div class="following-container flex flex-column  flex-item-center ">
                         <div> Following </div>
                         <div class="container">
-                        <img src="img/following-img/img1.svg" alt="">
+                        <img src="img/following-img/img1.svg" alt=" ">
                         <div class="name">
                             <p>Dylan Hodges</p>
                             <img src="img/icon/wifi.svg" alt="">

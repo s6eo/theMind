@@ -12,7 +12,7 @@ export default function searchBar(){
                     <div></div>
                     <div></div>
                 </div>
-                <div class="browse flex flex-item-center gap-50 cursor">
+                <div class="browse flex flex-item-center gap-50 cursor ">
                     <div class="text flex flex-item-center gap-20">
                         <img src="img/icon/Browse.svg" alt="browse-img">
                         <h5>Browse</h5>

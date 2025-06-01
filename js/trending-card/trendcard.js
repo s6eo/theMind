@@ -15,7 +15,7 @@ export default function cards(item){
                         <div class="details flex flex-column flex-justify-start gap-6">
                             <div class="button flex flex-item-center flex-justify-start gap-6" >
                             <button class="btn-sm flex flex-item-center flex-justify-center gap-5">
-                            <img src="img/icon/live-w.svg" alt="">
+                            <img src="img/icon/live-w.svg">
                                 live
                             </button>
                             <button class="btn-sm2">shooter</button>

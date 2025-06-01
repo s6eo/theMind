@@ -29,7 +29,7 @@ export default function caedComponint(items){
                 </div>
                 <div class="bottom flex flex-item-center flex-justify-around">
                     <div class="btn-sm">
-                        <img src="img/icon/live-w.svg" alt="white wifi">
+                        <img src="img/icon/live-w.svg" alt="white-wifi">
                         <p>Live</p>
                     </div>
                     <div class="watchig flex flex-item-center flex-justify- gap-5">
