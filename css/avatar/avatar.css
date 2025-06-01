@@ -17,7 +17,7 @@ main{
 }
 
 main header{
-    background: url(img/imgs/img2.svg);
+    background: url(../../img/imgs/img2.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
