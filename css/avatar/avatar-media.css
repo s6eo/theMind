@@ -297,7 +297,7 @@
 
     section.Categories div.category div.Scard:nth-child(1)>div.G-img{
         opacity: 1;
-        background:url(../../img/imgs/img2.svg);
+        background:url(img/imgs/img2.svg);
         background-position: center;
         background-size: cover;
         width: 100%;

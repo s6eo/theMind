@@ -6,7 +6,7 @@ export default function sideBar(){
         `    
             <div class="top flex flex-column flex-item-center gap-30 ">
                 <div class="logo flex flex-item-center flex-justify-evenly gap-30 ">
-                    <a class="name flex flex-item-center flex-justify-between" href="/index.html">
+                    <a class="name flex flex-item-center flex-justify-between" href="index.html">
                         <img src="img/icon/logo.png" alt="logo">
                         <h1>The Mind</h1>
                     </a>
