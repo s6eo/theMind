@@ -590,7 +590,6 @@ div.games-container div.game-card div.title p:nth-child(2){
     font-size: var(--font-size-Caption2);
 }
 
-
 main section.trending div.widget div.game
 div.games-container div.game-card:nth-child(1) div.img{
     background:url(img/game/callofduty.svg);
