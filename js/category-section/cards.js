@@ -11,7 +11,7 @@ export default function card(items){
                     <div class="cursor"><img src="img/icon/L-arrow.svg" alt="left arrow"></div>
                     <div class="cursor"><img src="img/icon/R-arrow.svg" altright arrowdiv>
                 </div>
-            <div class="G-img" style=" background: url(${game_img}) ; background-position: center; background-size: cover; "></div>
+            <div class="G-img" style=" background: url(${game_img}); background-position: center; background-size: cover; "></div>
             <div class="details flex flex-column gap-20">
                 <div class="title flex flex-column gap-6">
 
