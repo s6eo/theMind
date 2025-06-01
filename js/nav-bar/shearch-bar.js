@@ -232,7 +232,7 @@ export default function searchBar(){
                         <p>A League of Legends player. For business inquiries contact: dylan@ui8.net</p>
                     </div>
                     <div class="bottoms flex flex-item-center flex-justify-between gap-10">
-                        <a href="../../avatar.html"><button class="btn">Visit Profile</button></a>
+                        <a href="avatar.html"><button class="btn">Visit Profile</button></a>
                         <div class="setting btn3 flex flex-item-center flex-justify-center">
                             <img src="img/icon/setting2.svg" alt="setting">
                         </div>
