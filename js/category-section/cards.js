@@ -8,8 +8,8 @@ export default function card(items){
         `
         <div class="card Scard">
                 <div class="L-R-Arrow flex flex-item-center gap-10">
-                    <div class="cursor"><img src="../../img/icon/L-arrow.svg" alt=""></div>
-                    <div class="cursor"><img src="../../img/icon/R-arrow.svg" alt=""></div>
+                    <div class="cursor"><img src="img/icon/L-arrow.svg" alt=""></div>
+                    <div class="cursor"><img src="img/icon/R-arrow.svg" alt=""></div>
                 </div>
             <div class="G-img" style=" background: url(${game_img}); background-position: center; background-size: cover; "></div>
             <div class="details flex flex-column gap-20">
